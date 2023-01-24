@@ -1,0 +1,26 @@
+{
+  "name": "gridtest",
+  "version": "1.0.0",
+  "description": "Sandbox-experiment to set up node, bootstrap and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "css:compile": "sass sass/main.scss:css/main.css"
+  },
+  "keywords": [
+    "bootstrap",
+    "grid",
+    "sass"
+  ],
+  "author": "Marius Akerbæk",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.57.1"
+  }
+}
